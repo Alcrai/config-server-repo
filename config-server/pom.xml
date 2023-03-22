@@ -10,12 +10,14 @@
 	</parent>
 	<groupId>com.mediscreen</groupId>
 	<artifactId>config-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>config-server</name>
 	<description>Configuration des microservices</description>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2021.0.6</spring-cloud.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
